@@ -48,23 +48,23 @@ function devolverString(str) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (str1.length == str2.lenght) return true;
-    else return false;
+    if (str1.length == str2.length) return true
+    else return false
   }
   
   function menosQueNoventa(num) {
     // Devuelve "true" si el argumento de la función "num" es menor que noventa
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (num < 90) return true;
-    else return false;
+    if (num < 90) return true
+    else return false
   }
   
   function mayorQueCincuenta(num) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (num < 50) return true;
+    if (num > 50) return true;
     else return false;
   }
   
@@ -134,8 +134,8 @@ function devolverString(str) {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
-    if (numero >0) return "es positivo";
-   else if (numero <0)return "es negativo";
+    if (numero >0) return "Es positivo";
+   else if (numero <0)return "Es negativo";
     else return false;
   }
   
@@ -143,7 +143,7 @@ function devolverString(str) {
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
     // Ejemplo: "hello world" pasaría a ser "hello world!"
     // Tu código:
-    return str + "!"
+    return (str + "!");
 
   }
   
@@ -158,7 +158,7 @@ function devolverString(str) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
-    return "hola" + " " + nombre + "!"
+    return ("Hola" + " " + nombre + "!")
   }
   
   function obtenerAreaRectangulo(alto, ancho) {
